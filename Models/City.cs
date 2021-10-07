@@ -11,6 +11,7 @@ namespace Lab4.Models
         public string CityName { get; set; }
         public int Population { get; set; }
         
+        [Display (Name = "Province Code")]
         public string ProvinceCode { get; set; }
 
         [ForeignKey("ProvinceCode")]
